@@ -1,1 +1,36 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0e">
+  <meta name="description" content="YORU Studio — independent game development studio. Discover YORU: Just Drift, an atmospheric mobile drifting game.">
+  <title>YORU Studio — Just Drift</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0b0b0e;--fg:#f4f4f6;--muted:#a1a1ad;--line:#2b2b34;--accent:#b4a5eb}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    a{color:inherit;text-decoration:none}a:hover{color:var(--accent)}.wrap{max-width:1050px;margin:auto;padding:0 26px}
+    header{border-bottom:1px solid var(--line)}.nav{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:24px 0}.brand{font-weight:800;letter-spacing:.18em;font-size:14px}.navlinks{display:flex;gap:24px;font-size:13px;color:var(--muted)}
+    main{min-height:70vh}.hero{padding:112px 0 108px}.eyebrow{font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--accent);font-weight:700}.hero h1{font-size:clamp(72px,16vw,170px);line-height:.95;letter-spacing:-.09em;margin:22px 0 14px;font-weight:850}.hero h2{font-size:clamp(22px,4vw,36px);font-weight:500;letter-spacing:.03em;margin:0 0 26px}.hero p{max-width:550px;color:var(--muted);font-size:17px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:35px}.btn{display:inline-block;border:1px solid var(--fg);padding:12px 20px;font-size:13px;font-weight:650;letter-spacing:.04em}.btn.secondary{border-color:var(--line);color:var(--muted)}
+    section.info{border-top:1px solid var(--line);padding:44px 0 72px}.info h3{font-size:14px;letter-spacing:.14em;text-transform:uppercase}.info p{color:var(--muted);max-width:680px}
+    footer{border-top:1px solid var(--line);padding:30px 0;color:var(--muted);font-size:13px}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.footlinks{display:flex;gap:22px;flex-wrap:wrap}
+    @media(max-width:540px){.nav{align-items:flex-start;flex-direction:column}.hero{padding:75px 0}.hero h1{font-size:clamp(64px,20vw,110px)}.navlinks{gap:15px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap nav"><a class="brand" href="/">YORU STUDIO</a><nav class="navlinks" aria-label="Main navigation"><a href="#game">THE GAME</a><a href="/privacy-policy.html">PRIVACY</a><a href="mailto:com.yorustudio@gmail.com">CONTACT</a></nav></div></header>
+<main>
+  <div class="wrap hero" id="game">
+    <div class="eyebrow">An independent game studio</div>
+    <h1>YORU</h1>
+    <h2>JUST DRIFT.</h2>
+    <p>An atmospheric mobile drifting experience. Night roads, smooth handling, and the freedom to drive for the feeling of it.</p>
+    <div class="actions"><a class="btn" href="mailto:com.yorustudio@gmail.com?subject=YORU%3A%20Just%20Drift%20Support">CONTACT SUPPORT ↗</a><a class="btn secondary" href="/privacy-policy.html">PRIVACY POLICY ↗</a></div>
+  </div>
+  <section class="info"><div class="wrap"><h3>About YORU Studio</h3><p>YORU Studio creates mobile gaming experiences focused on atmosphere, driving, and simplicity. YORU: Just Drift is our first title, currently in development for Android.</p></div></section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year">2026</span> YORU Studio</span><div class="footlinks"><a href="/privacy-policy.html">Privacy Policy</a><a href="mailto:com.yorustudio@gmail.com">com.yorustudio@gmail.com</a></div></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
